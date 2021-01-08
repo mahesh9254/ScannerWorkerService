@@ -1,0 +1,3 @@
+C:\Users\RAINBOW TRADING\source\repos\ScannerWorkerService\ScannerWebApplication>dotnet publish -c Release -o D:/PublishWeb
+
+C:\Users\RAINBOW TRADING\source\repos\ScannerWorkerService\ScannerWebApplication>sc create "Sample Service" binPath=D:\PublishWeb\ScannerWebApplication.exe
