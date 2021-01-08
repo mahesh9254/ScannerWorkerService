@@ -1,0 +1,3 @@
+C:\Users\RAINBOW TRADING\source\repos\ScannerWorkerService\ScannerWorkerService>dotnet publish -r win-x64 -c Release -o D:\Publish /p:PublishSingleFile=true /p:DebugType=None
+
+C:\Users\RAINBOW TRADING\source\repos\ScannerWorkerService\ScannerWorkerService>sc create ScannerWorkerService binpath= D:\Publish\ScannerWorkerService.exe start=delayed-auto

@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ScannerWorkerService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
